@@ -493,6 +493,10 @@ th {
   justify-content: center;
 }
 
+.sample{
+  color: rgb(41, 128, 185);
+}
+
 .site-image img{
   max-width: 150px;
   margin: 0 auto;
@@ -534,6 +538,26 @@ th {
   display: none;
 }
 
+.site-description .site-image .images{
+  width: 150px;
+  margin: 0 auto;
+  height: 150px;
+  border: 1px solid #d3d3d3;
+  border-radius: 50%;
+  background: url('../images/me.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.site-text{
+  background: #fff;
+  border: 1px solid #d3d3d3;
+  padding: 40px;
+  margin-top: 20px;
+  font-weight: 300;
+}
+
 @media (max-width: 920px) {
   .container{
     max-width: 720px;
@@ -560,6 +584,9 @@ th {
   .site-image img{
     max-width: 100px;
   }
+  .site-text{
+    padding: 20px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -584,5 +611,11 @@ th {
 
   p{
     font-size: 14px;
+  }
+  .site-description{
+    display: block;
+  }
+  .site-description .site-content{
+    text-align: center;
   }
 }
