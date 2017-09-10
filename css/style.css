@@ -619,3 +619,40 @@ th {
     text-align: center;
   }
 }
+
+.socialshare{
+  position: fixed;
+  background: #fff;
+  border-radius: 3px;
+  padding: 7px 10px;
+  top: 50%;
+  left: 10%;
+}
+
+.socialshare ul{
+  text-align: center;
+}
+
+.shares{
+  padding: 3px 7px;
+  background: #666;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 3px;
+}
+
+.socialshare ul li a img{
+  width: 32px;
+  margin-bottom: 3px;
+  margin-top: 7px;
+}
+
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  margin: 0 auto;
+
+  border-bottom: 8px solid #666;
+}

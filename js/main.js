@@ -16,16 +16,13 @@ function hideGirls() {
   girlsLink = document.getElementById('girlsLink');
   girlsLink.setAttribute('style', 'color: inherit;');
 
-  girls = document.getElementsByClassName('girls');
-    for (var i = 0; i < girls.length; i++) {
-      girls[i].setAttribute('style', 'display: none');
-    }
-
-
-  guys = document.getElementsByClassName('guys');
-    for (var i = 0; i < girls.length; i++) {
-      guys[i].setAttribute('style', 'display: block');
-    }
+console.log(56);
+  girls = document.getElementById('girls');
+      girls.setAttribute('style', 'display: none');
+console.log(57);
+  guys = document.getElementById('guys');
+      guys.setAttribute('style', 'display: block');
+console.log(58);
 }
 
 function hideGuys(){
@@ -36,14 +33,10 @@ function hideGuys(){
   guysLink = document.getElementById('guysLink');
   guysLink.setAttribute('style', 'color: inherit;');
 
-  girls = document.getElementsByClassName('girls');
-    for (var i = 0; i < girls.length; i++) {
-      girls[i].setAttribute('style', 'display: block');
-    }
+  girls = document.getElementById('girls');
+      girls.setAttribute('style', 'display: block');
 
 
-  guys = document.getElementsByClassName('guys');
-    for (var i = 0; i < girls.length; i++) {
-      guys[i].setAttribute('style', 'display: none');
-    }
+  guys = document.getElementById('guys');
+      guys.setAttribute('style', 'display: none');
 }
